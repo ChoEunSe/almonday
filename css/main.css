@@ -407,7 +407,7 @@ header {
 
 .slide_inner {
     display: flex;
-    width: 200%;
+    width: 3700px;
     animation: rotate 30s linear infinite;
 }
 
@@ -417,7 +417,7 @@ header {
 
 .slide_inner ul {
     display: flex;
-    width: 50%;
+    width: 1850px;
     justify-content: space-around;
 }
 
@@ -616,7 +616,8 @@ footer {
 /* top_btn */
 .top_btn {
     position: fixed;
-    bottom: 450px;
+    bottom: 50%;
+    transform: translateY(45px);
     right: 50px;
     z-index: 99;
 }

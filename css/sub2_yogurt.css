@@ -470,7 +470,8 @@ footer {
 /* top_btn */
 .top_btn {
     position: fixed;
-    bottom: 450px;
+    bottom: 50%;
+    transform: translateY(45px);
     right: 50px;
     z-index: 99;
 }
